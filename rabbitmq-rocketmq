@@ -1,0 +1,155 @@
+Phase 1: Core Messaging Concepts
+
+Goal: Understand message-oriented middleware fundamentals.
+
+Basic Concepts
+
+Message queues vs. topics
+
+Producer & Consumer model
+
+Synchronous vs. asynchronous communication
+
+Acknowledgements, retries, dead-letter queues
+
+Message ordering
+
+Messaging Patterns
+
+Point-to-Point (Queue)
+
+Publish-Subscribe (Topic)
+
+Fanout, direct, topic routing (RabbitMQ)
+
+Transactional messaging (RocketMQ)
+
+Hands-on
+
+Write a simple producer-consumer program in Python/Java.
+
+Use RabbitMQ or RocketMQ demo servers.
+
+Phase 2: RabbitMQ Fundamentals
+
+Goal: Get strong with queue-based messaging.
+
+Setup
+
+Install RabbitMQ locally & via Docker
+
+Management console overview
+
+AMQP basics
+
+Core Features
+
+Exchanges: direct, fanout, topic, headers
+
+Queues and bindings
+
+Message acknowledgement & durability
+
+Dead-letter exchanges
+
+Advanced RabbitMQ
+
+Clustering & high availability
+
+Shovel & federation plugins
+
+Priority queues
+
+Rate limiting & flow control
+
+Hands-on
+
+Build a background job system (e.g., email sending, image processing)
+
+Implement retry and dead-letter queues
+
+Use RabbitMQ with microservices
+
+Phase 3: RocketMQ Fundamentals
+
+Goal: Master high-throughput, distributed streaming.
+
+Setup
+
+Install RocketMQ via Docker or cluster setup
+
+Understand NameServer & Broker architecture
+
+Core Features
+
+Topics & Tags
+
+Message ordering & FIFO
+
+Message filtering
+
+Transactional messages
+
+High availability & fault tolerance
+
+Advanced RocketMQ
+
+Batch sending & consumption
+
+Scheduled messages
+
+Distributed deployment & load balancing
+
+Integrations (Spring Cloud Stream, Flink, Kafka bridge)
+
+Hands-on
+
+Build a flash sale/order processing system
+
+Implement transactional message workflow
+
+Event streaming for IoT or telemetry data
+
+Phase 4: Comparative Understanding
+
+Goal: Know when to use each system effectively.
+
+RabbitMQ vs. RocketMQ
+
+Queue-based vs. streaming-based
+
+Reliability vs. throughput
+
+Small/medium vs. large-scale applications
+
+Ordering and transactional support
+
+Decision Guide
+
+RabbitMQ → Async tasks, microservices, small/medium queues
+
+RocketMQ → High-scale events, financial systems, IoT streams, flash sales
+
+Phase 5: Real-world Projects
+
+RabbitMQ
+
+Microservices job queue for order processing
+
+Notification service with retries and DLQ
+
+RocketMQ
+
+High-throughput e-commerce flash sale system
+
+IoT telemetry pipeline with millions of messages/sec
+
+Phase 6: Scaling & Optimization
+
+Monitoring: Prometheus, Grafana
+
+Metrics: throughput, latency, consumer lag
+
+Tuning: prefetch, batching, message size, concurrency
+
+Distributed deployment & clustering best practices
