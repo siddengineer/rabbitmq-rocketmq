@@ -1,0 +1,219 @@
+1️⃣ Basics of Messaging Systems
+
+What is a message queue?
+
+Message brokers vs. message queues
+
+Asynchronous vs synchronous communication
+
+Benefits of using message queues
+
+Common messaging patterns in software
+
+Producer-consumer architecture explained
+
+What is pub/sub messaging?
+
+Point-to-point vs publish-subscribe
+
+Dead-letter queues explained
+
+Message durability and reliability
+
+2️⃣ RabbitMQ Fundamentals
+
+Introduction to RabbitMQ for beginners
+
+How RabbitMQ works internally
+
+Understanding AMQP protocol
+
+Exchanges in RabbitMQ: Direct, Fanout, Topic, Headers
+
+Queues and bindings explained
+
+RabbitMQ message acknowledgements
+
+Durable vs transient messages
+
+RabbitMQ dead-letter queues
+
+Message TTL in RabbitMQ
+
+RabbitMQ clustering basics
+
+3️⃣ Advanced RabbitMQ Topics
+
+RabbitMQ high availability setup
+
+RabbitMQ mirrored queues explained
+
+Rate limiting in RabbitMQ
+
+Priority queues in RabbitMQ
+
+Shovel and federation plugins in RabbitMQ
+
+Handling retries in RabbitMQ
+
+Delayed messages in RabbitMQ
+
+RabbitMQ management console overview
+
+Monitoring RabbitMQ with Prometheus
+
+RabbitMQ best practices for production
+
+4️⃣ RabbitMQ Use Cases
+
+Background job processing with RabbitMQ
+
+Microservices decoupling using RabbitMQ
+
+Task scheduling using RabbitMQ
+
+Email notification system with RabbitMQ
+
+Video processing pipelines with RabbitMQ
+
+IoT event handling with RabbitMQ
+
+Real-time chat systems with RabbitMQ
+
+Data ingestion pipelines using RabbitMQ
+
+Payment processing queues with RabbitMQ
+
+RabbitMQ for e-commerce order processing
+
+5️⃣ RocketMQ Fundamentals
+
+Introduction to RocketMQ
+
+History of RocketMQ and Alibaba use
+
+RocketMQ architecture overview
+
+Understanding RocketMQ NameServer & Brokers
+
+RocketMQ producers and consumers explained
+
+RocketMQ topics and tags
+
+Ordered message delivery in RocketMQ
+
+Transactional messaging in RocketMQ
+
+RocketMQ message filtering
+
+RocketMQ high availability
+
+6️⃣ Advanced RocketMQ Topics
+
+RocketMQ clustering and replication
+
+RocketMQ batch sending & consumption
+
+RocketMQ scheduled/delayed messages
+
+RocketMQ consumer groups
+
+RocketMQ load balancing strategies
+
+RocketMQ performance tuning
+
+Monitoring RocketMQ clusters
+
+RocketMQ fault tolerance mechanisms
+
+RocketMQ with Spring Boot integration
+
+RocketMQ vs Kafka: differences
+
+7️⃣ RocketMQ Use Cases
+
+Flash sale system using RocketMQ
+
+Order processing pipelines with RocketMQ
+
+Transactional messages for financial apps
+
+IoT telemetry using RocketMQ
+
+Real-time analytics with RocketMQ
+
+Event streaming at scale
+
+Multi-region RocketMQ deployment
+
+Massive e-commerce message handling
+
+RocketMQ for game event streaming
+
+RocketMQ in logistics tracking systems
+
+8️⃣ Comparative Topics
+
+RabbitMQ vs RocketMQ: key differences
+
+RabbitMQ vs Kafka
+
+RocketMQ vs Kafka for high-scale events
+
+Choosing the right message broker for your project
+
+When to use RabbitMQ over RocketMQ
+
+Use cases where RocketMQ shines
+
+RabbitMQ message ordering vs RocketMQ
+
+Transactional message support: RocketMQ vs RabbitMQ
+
+Performance comparison: RabbitMQ vs RocketMQ
+
+Scalability differences: RabbitMQ vs RocketMQ
+
+9️⃣ Real-World Projects & Tutorials
+
+Build a task queue with RabbitMQ
+
+Implement an email system using RabbitMQ
+
+Build a flash sale system using RocketMQ
+
+Microservices communication using RabbitMQ
+
+Real-time IoT data ingestion with RocketMQ
+
+RabbitMQ + Spring Boot integration tutorial
+
+RocketMQ + Spring Boot integration tutorial
+
+Transactional order processing system with RocketMQ
+
+RabbitMQ queue monitoring and alerting
+
+End-to-end event streaming with RocketMQ
+
+🔟 Trends, Tools, and Ecosystem
+
+AMQP protocol explained
+
+MQTT vs AMQP vs RocketMQ
+
+Monitoring tools for RabbitMQ & RocketMQ
+
+RabbitMQ plugins worth knowing
+
+RocketMQ ecosystem & integrations
+
+Cloud-hosted RabbitMQ vs self-hosted
+
+RocketMQ in Alibaba Cloud ecosystem
+
+Security best practices for messaging systems
+
+Future trends in message brokers & streaming
+
+Building a career as a messaging system architect
